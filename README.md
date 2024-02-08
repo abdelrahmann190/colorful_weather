@@ -1,10 +1,10 @@
-# Colorful_weather
+# Colorful_Weather
 
 This is a weatehr app that i've created using flutter, well opbviously.
 
 I used clean archticture here, or at least tried to do so, as you can see from the code it's a bit of a miss at the moment hopefully in the future i will come back to improve this code.
 
-But at leaset i'm doing something
+But at leaset i'm doing something.
 
 <details open>
 <summary>Tap to show/hide screenshots</summary>
