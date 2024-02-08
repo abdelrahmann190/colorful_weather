@@ -22,7 +22,7 @@ class _SplashPageState extends State<SplashPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               height: 500,
               child: PageView.builder(
                 controller: _pageController,

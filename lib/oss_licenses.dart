@@ -5,11 +5,13 @@
 const ossLicenses = <Package>[
   Package(
     name: 'ansicolor',
-    description: 'Looking to add some color to your terminal logs? `ansicolor` is an xterm-256 color support library that lets you change the foreground and background color of your text.',
+    description:
+        'Looking to add some color to your terminal logs? `ansicolor` is an xterm-256 color support library that lets you change the foreground and background color of your text.',
     repository: 'https://github.com/google/ansicolor-dart',
     authors: [],
     version: '2.0.2',
-    license: '''Apache License
+    license:
+        '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -190,7 +192,7 @@ const ossLicenses = <Package>[
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don\'t include
+      replaced with your own identifying information. (Don't include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -216,11 +218,13 @@ const ossLicenses = <Package>[
   ),
   Package(
     name: 'archive',
-    description: 'Provides encoders and decoders for various archive and compression formats such as zip, tar, bzip2, gzip, and zlib.',
+    description:
+        'Provides encoders and decoders for various archive and compression formats such as zip, tar, bzip2, gzip, and zlib.',
     repository: 'https://github.com/brendan-duncan/archive',
     authors: [],
     version: '3.4.10',
-    license: '''The MIT License
+    license:
+        '''The MIT License
 
 Copyright (c) 2013-2021 Brendan Duncan.
 All rights reserved.
@@ -248,11 +252,13 @@ THE SOFTWARE.''',
   ),
   Package(
     name: 'args',
-    description: 'Library for defining parsers for parsing raw command-line arguments into a set of options and values using GNU and POSIX style options.',
+    description:
+        'Library for defining parsers for parsing raw command-line arguments into a set of options and values using GNU and POSIX style options.',
     repository: 'https://github.com/dart-lang/args',
     authors: [],
     version: '2.4.2',
-    license: '''Copyright 2013, the Dart project authors. 
+    license:
+        '''Copyright 2013, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -285,11 +291,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'async',
-    description: 'Utility functions and classes related to the \'dart:async\' library.',
+    description:
+        'Utility functions and classes related to the \'dart:async\' library.',
     repository: 'https://github.com/dart-lang/async',
     authors: [],
     version: '2.11.0',
-    license: '''Copyright 2015, the Dart project authors. 
+    license:
+        '''Copyright 2015, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -322,12 +330,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'bloc',
-    description: 'A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern.',
+    description:
+        'A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern.',
     homepage: 'https://github.com/felangel/bloc',
     repository: 'https://github.com/felangel/bloc/tree/master/packages/bloc',
     authors: [],
     version: '8.1.2',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 Copyright (c) 2018 Felix Angelov
 
 Permission is hereby granted, free of charge, to any person
@@ -354,11 +364,13 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.''',
   ),
   Package(
     name: 'boolean_selector',
-    description: 'A flexible syntax for boolean expressions, based on a simplified version of Dart\'s expression syntax.',
+    description:
+        'A flexible syntax for boolean expressions, based on a simplified version of Dart\'s expression syntax.',
     repository: 'https://github.com/dart-lang/boolean_selector',
     authors: [],
     version: '2.1.1',
-    license: '''Copyright 2016, the Dart project authors.
+    license:
+        '''Copyright 2016, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -391,11 +403,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'cached_network_image',
-    description: 'Flutter library to load and cache network images. Can also be used with placeholder and error widgets.',
+    description:
+        'Flutter library to load and cache network images. Can also be used with placeholder and error widgets.',
     homepage: 'https://github.com/Baseflow/flutter_cached_network_image',
     authors: [],
     version: '3.3.1',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 
 Copyright (c) 2018 Rene Floor
 
@@ -426,7 +440,8 @@ SOFTWARE.''',
     homepage: 'https://github.com/Baseflow/flutter_cached_network_image',
     authors: [],
     version: '4.0.0',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 
 Copyright (c) 2018 Rene Floor
 
@@ -457,7 +472,8 @@ SOFTWARE.''',
     homepage: 'https://github.com/Baseflow/flutter_cached_network_image',
     authors: [],
     version: '1.1.1',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 
 Copyright (c) 2018 Rene Floor
 
@@ -484,11 +500,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'characters',
-    description: 'String replacement with operations that are Unicode/grapheme cluster aware.',
+    description:
+        'String replacement with operations that are Unicode/grapheme cluster aware.',
     repository: 'https://github.com/dart-lang/characters',
     authors: [],
     version: '1.3.0',
-    license: '''Copyright 2019, the Dart project authors. 
+    license:
+        '''Copyright 2019, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -521,11 +539,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'checked_yaml',
-    description: 'Generate more helpful exceptions when decoding YAML documents using package:json_serializable and package:yaml.',
-    repository: 'https://github.com/google/json_serializable.dart/tree/master/checked_yaml',
+    description:
+        'Generate more helpful exceptions when decoding YAML documents using package:json_serializable and package:yaml.',
+    repository:
+        'https://github.com/google/json_serializable.dart/tree/master/checked_yaml',
     authors: [],
     version: '2.0.3',
-    license: '''Copyright 2019, the Dart project authors. All rights reserved.
+    license:
+        '''Copyright 2019, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -561,7 +582,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     repository: 'https://github.com/dart-lang/cli_util',
     authors: [],
     version: '0.4.1',
-    license: '''Copyright 2015, the Dart project authors. 
+    license:
+        '''Copyright 2015, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -598,7 +620,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     repository: 'https://github.com/dart-lang/clock',
     authors: [],
     version: '1.1.1',
-    license: '''Apache License
+    license:
+        '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -779,7 +802,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don\'t include
+      replaced with your own identifying information. (Don't include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -805,11 +828,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'collection',
-    description: 'Collections and utilities functions and classes related to collections.',
+    description:
+        'Collections and utilities functions and classes related to collections.',
     repository: 'https://github.com/dart-lang/collection',
     authors: [],
     version: '1.17.2',
-    license: '''Copyright 2015, the Dart project authors. 
+    license:
+        '''Copyright 2015, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -842,11 +867,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'convert',
-    description: 'Utilities for converting between data representations. Provides a number of Sink, Codec, Decoder, and Encoder types.',
+    description:
+        'Utilities for converting between data representations. Provides a number of Sink, Codec, Decoder, and Encoder types.',
     repository: 'https://github.com/dart-lang/convert',
     authors: [],
     version: '3.1.1',
-    license: '''Copyright 2015, the Dart project authors.
+    license:
+        '''Copyright 2015, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -879,11 +906,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'crypto',
-    description: 'Implementations of SHA, MD5, and HMAC cryptographic functions.',
+    description:
+        'Implementations of SHA, MD5, and HMAC cryptographic functions.',
     repository: 'https://github.com/dart-lang/crypto',
     authors: [],
     version: '3.0.3',
-    license: '''Copyright 2015, the Dart project authors.
+    license:
+        '''Copyright 2015, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -916,11 +945,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'csc_picker',
-    description: 'A flutter package to display list of Countries, States and Cities depends on Selected, also you can search country, state, and city all around the world.',
+    description:
+        'A flutter package to display list of Countries, States and Cities depends on Selected, also you can search country, state, and city all around the world.',
     homepage: 'https://github.com/altafc22/csc_picker',
     authors: [],
     version: '0.2.7',
-    license: '''Copyright 2021, the Dart project authors. All rights reserved.
+    license:
+        '''Copyright 2021, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -952,11 +983,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'csslib',
-    description: 'A library for parsing and analyzing CSS (Cascading Style Sheets).',
+    description:
+        'A library for parsing and analyzing CSS (Cascading Style Sheets).',
     repository: 'https://github.com/dart-lang/csslib',
     authors: [],
     version: '1.0.0',
-    license: '''Copyright 2013, the Dart project authors. 
+    license:
+        '''Copyright 2013, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -989,11 +1022,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'cupertino_icons',
-    description: 'Default icons asset for Cupertino widgets based on Apple styled icons',
-    repository: 'https://github.com/flutter/packages/tree/main/third_party/packages/cupertino_icons',
+    description:
+        'Default icons asset for Cupertino widgets based on Apple styled icons',
+    repository:
+        'https://github.com/flutter/packages/tree/main/third_party/packages/cupertino_icons',
     authors: [],
     version: '1.0.5',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 
 Copyright (c) 2016 Vladimir Kharlampidi
 
@@ -1019,12 +1055,15 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.''',
   ),
   Package(
     name: 'dart_pubspec_licenses',
-    description: 'A library to make it easy to extract OSS license information from Dart packages using pubspec.yaml',
-    homepage: 'https://github.com/espresso3389/flutter_oss_licenses/tree/master/packages/dart_pubspec_licenses',
+    description:
+        'A library to make it easy to extract OSS license information from Dart packages using pubspec.yaml',
+    homepage:
+        'https://github.com/espresso3389/flutter_oss_licenses/tree/master/packages/dart_pubspec_licenses',
     repository: 'https://github.com/espresso3389/flutter_oss_licenses',
     authors: [],
     version: '2.0.2',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2019 Takashi Kawasaki
 
@@ -1051,11 +1090,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'dartz',
-    description: 'Functional Programming in Dart. Purify your Dart code using efficient immutable data structures, monads, lenses and other FP tools.',
+    description:
+        'Functional Programming in Dart. Purify your Dart code using efficient immutable data structures, monads, lenses and other FP tools.',
     homepage: 'https://github.com/spebbe/dartz',
     authors: ['Björn Sperber <spebbe@gmail.com>'],
     version: '0.10.1',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 
 Copyright (c) 2016, 2017, 2018, 2019, 2020, 2021 Björn Sperber
 
@@ -1082,7 +1123,8 @@ SOFTWARE.''',
   ),
   Package(
     name: 'dio',
-    description: '''A powerful HTTP networking package,
+    description:
+        '''A powerful HTTP networking package,
 supports Interceptors,
 Aborting and canceling a request,
 Custom adapters, Transformers, etc.
@@ -1091,7 +1133,8 @@ Custom adapters, Transformers, etc.
     repository: 'https://github.com/cfug/dio/blob/main/dio',
     authors: [],
     version: '5.3.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Wen Du (wendux)
 Copyright (c) 2022 The CFUG Team
@@ -1119,12 +1162,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'dropdown_button2',
-    description: 'Flutter\'s core Dropdown Button widget with steady dropdown menu and many options you can customize to your needs.',
+    description:
+        'Flutter\'s core Dropdown Button widget with steady dropdown menu and many options you can customize to your needs.',
     homepage: 'https://github.com/AhmedLSayed9/dropdown_button2',
     repository: 'https://github.com/AhmedLSayed9/dropdown_button2/tree/master',
     authors: [],
     version: '1.9.4',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2021 AHMED ELSAYED
 
@@ -1151,12 +1196,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'equatable',
-    description: 'A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.',
+    description:
+        'A Dart package that helps to implement value based equality without needing to explicitly override == and hashCode.',
     homepage: 'https://github.com/felangel/equatable',
     repository: 'https://github.com/felangel/equatable',
     authors: [],
     version: '2.0.5',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Felix Angelov
 
@@ -1183,11 +1230,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'fake_async',
-    description: 'Fake asynchronous events such as timers and microtasks for deterministic testing.',
+    description:
+        'Fake asynchronous events such as timers and microtasks for deterministic testing.',
     repository: 'https://github.com/dart-lang/fake_async',
     authors: [],
     version: '1.3.1',
-    license: '''Apache License
+    license:
+        '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -1368,7 +1417,7 @@ SOFTWARE.''',
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don\'t include
+      replaced with your own identifying information. (Don't include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -1394,11 +1443,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'ffi',
-    description: 'Utilities for working with Foreign Function Interface (FFI) code.',
+    description:
+        'Utilities for working with Foreign Function Interface (FFI) code.',
     repository: 'https://github.com/dart-lang/ffi',
     authors: [],
     version: '2.0.2',
-    license: '''Copyright 2019, the Dart project authors. 
+    license:
+        '''Copyright 2019, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -1431,11 +1482,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'file',
-    description: 'A pluggable, mockable file system abstraction for Dart. Supports local file system access, as well as in-memory file systems, record-replay file systems, and chroot file systems.',
+    description:
+        'A pluggable, mockable file system abstraction for Dart. Supports local file system access, as well as in-memory file systems, record-replay file systems, and chroot file systems.',
     repository: 'https://github.com/google/file.dart/tree/master/packages/file',
     authors: [],
     version: '6.1.4',
-    license: '''Copyright 2017, the Dart project authors. All rights reserved.
+    license:
+        '''Copyright 2017, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -1471,7 +1524,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     homepage: 'https://flutter.dev',
     authors: [],
     version: '3.13.4',
-    license: '''Copyright 2014 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2014 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -1502,12 +1556,15 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'flutter_bloc',
-    description: 'Flutter Widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.',
+    description:
+        'Flutter Widgets that make it easy to implement the BLoC (Business Logic Component) design pattern. Built to be used with the bloc state management package.',
     homepage: 'https://bloclibrary.dev',
-    repository: 'https://github.com/felangel/bloc/tree/master/packages/flutter_bloc',
+    repository:
+        'https://github.com/felangel/bloc/tree/master/packages/flutter_bloc',
     authors: [],
     version: '8.1.3',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 Copyright (c) 2018 Felix Angelov
 
 Permission is hereby granted, free of charge, to any person
@@ -1534,11 +1591,14 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.''',
   ),
   Package(
     name: 'flutter_cache_manager',
-    description: 'Generic cache manager for flutter. Saves web files on the storages of the device and saves the cache info using sqflite.',
-    homepage: 'https://github.com/Baseflow/flutter_cache_manager/tree/develop/flutter_cache_manager',
+    description:
+        'Generic cache manager for flutter. Saves web files on the storages of the device and saves the cache info using sqflite.',
+    homepage:
+        'https://github.com/Baseflow/flutter_cache_manager/tree/develop/flutter_cache_manager',
     authors: [],
     version: '3.3.1',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 
 Copyright (c) 2017 Rene Floor
 
@@ -1565,14 +1625,16 @@ SOFTWARE.''',
   ),
   Package(
     name: 'flutter_launcher_icons',
-    description: 'A package which simplifies the task of updating your Flutter app\'s launcher icon.',
+    description:
+        'A package which simplifies the task of updating your Flutter app\'s launcher icon.',
     homepage: 'https://github.com/fluttercommunity/flutter_launcher_icons',
     repository: 'https://github.com/fluttercommunity/flutter_launcher_icons/',
     authors: [],
     version: '0.13.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
-Copyright (c) 2019 Mark O\'Sullivan
+Copyright (c) 2019 Mark O'Sullivan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -1597,11 +1659,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'flutter_lints',
-    description: 'Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/flutter_lints',
+    description:
+        'Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/flutter_lints',
     authors: [],
     version: '2.0.2',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -1632,11 +1697,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'flutter_native_splash',
-    description: 'Customize Flutter\'s default white native splash screen with background color and splash image. Supports dark mode, full screen, and more.',
+    description:
+        'Customize Flutter\'s default white native splash screen with background color and splash image. Supports dark mode, full screen, and more.',
     repository: 'https://github.com/jonbhanson/flutter_native_splash',
     authors: [],
     version: '2.3.7',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2022 Jon Hanson
 
@@ -1663,12 +1730,15 @@ SOFTWARE.''',
   ),
   Package(
     name: 'flutter_oss_licenses',
-    description: 'A tool to generate detail and better OSS license list using pubspec.yaml/lock files.',
-    homepage: 'https://github.com/espresso3389/flutter_oss_licenses/tree/master/packages/flutter_oss_licenses',
+    description:
+        'A tool to generate detail and better OSS license list using pubspec.yaml/lock files.',
+    homepage:
+        'https://github.com/espresso3389/flutter_oss_licenses/tree/master/packages/flutter_oss_licenses',
     repository: 'https://github.com/espresso3389/flutter_oss_licenses',
     authors: [],
     version: '2.0.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2019 Takashi Kawasaki
 
@@ -1695,11 +1765,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'flutter_randomcolor',
-    description: 'A flutter package for generating attractive random colors. it can be used for data visualization, generative and lot more.',
+    description:
+        'A flutter package for generating attractive random colors. it can be used for data visualization, generative and lot more.',
     repository: 'https://github.com/DAMMAK/RandomColorDart',
     authors: [],
     version: '1.0.14',
-    license: '''The MIT License (MIT)
+    license:
+        '''The MIT License (MIT)
 Copyright (c) 2020 Damola Adekoya
 
 Permission is hereby granted, free of charge, to any person
@@ -1726,11 +1798,13 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.''',
   ),
   Package(
     name: 'gap',
-    description: 'Flutter widgets for easily adding gaps inside Flex widgets such as Columns and Rows or scrolling views.',
+    description:
+        'Flutter widgets for easily adding gaps inside Flex widgets such as Columns and Rows or scrolling views.',
     homepage: 'https://github.com/letsar/gap',
     authors: [],
     version: '3.0.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2020 Romain Rastel
 
@@ -1757,11 +1831,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geocoding',
-    description: 'A Flutter Geocoding plugin which provides easy geocoding and reverse-geocoding features.',
-    repository: 'https://github.com/baseflow/flutter-geocoding/tree/main/geocoding',
+    description:
+        'A Flutter Geocoding plugin which provides easy geocoding and reverse-geocoding features.',
+    repository:
+        'https://github.com/baseflow/flutter-geocoding/tree/main/geocoding',
     authors: [],
     version: '2.1.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1788,11 +1865,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geocoding_android',
-    description: 'A Flutter Geocoding plugin which provides easy geocoding and reverse-geocoding features.',
-    repository: 'https://github.com/baseflow/flutter-geocoding/tree/main/geocoding_android',
+    description:
+        'A Flutter Geocoding plugin which provides easy geocoding and reverse-geocoding features.',
+    repository:
+        'https://github.com/baseflow/flutter-geocoding/tree/main/geocoding_android',
     authors: [],
     version: '2.1.2',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1819,11 +1899,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geocoding_ios',
-    description: 'A Flutter Geocoding plugin which provides easy geocoding and reverse-geocoding features.',
-    repository: 'https://github.com/baseflow/flutter-geocoding/tree/main/geocoding_ios',
+    description:
+        'A Flutter Geocoding plugin which provides easy geocoding and reverse-geocoding features.',
+    repository:
+        'https://github.com/baseflow/flutter-geocoding/tree/main/geocoding_ios',
     authors: [],
     version: '2.1.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1851,10 +1934,12 @@ SOFTWARE.''',
   Package(
     name: 'geocoding_platform_interface',
     description: 'A common platform interface for the geocoding plugin.',
-    homepage: 'https://github.com/baseflow/flutter-geocoding/tree/master/geocoding_platform_interface',
+    homepage:
+        'https://github.com/baseflow/flutter-geocoding/tree/master/geocoding_platform_interface',
     authors: [],
     version: '2.0.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1881,11 +1966,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geolocator',
-    description: 'Geolocation plugin for Flutter. This plugin provides a cross-platform (iOS, Android) API for generic location (GPS etc.) functions.',
-    repository: 'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator',
+    description:
+        'Geolocation plugin for Flutter. This plugin provides a cross-platform (iOS, Android) API for generic location (GPS etc.) functions.',
+    repository:
+        'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator',
     authors: [],
     version: '10.1.0',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1912,11 +2000,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geolocator_android',
-    description: 'Geolocation plugin for Flutter. This plugin provides the Android implementation for the geolocator.',
-    repository: 'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_android',
+    description:
+        'Geolocation plugin for Flutter. This plugin provides the Android implementation for the geolocator.',
+    repository:
+        'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_android',
     authors: [],
     version: '4.4.1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1943,11 +2034,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geolocator_apple',
-    description: 'Geolocation Apple plugin for Flutter. This plugin provides the Apple implementation for the geolocator.',
-    repository: 'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_apple',
+    description:
+        'Geolocation Apple plugin for Flutter. This plugin provides the Apple implementation for the geolocator.',
+    repository:
+        'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_apple',
     authors: [],
     version: '2.3.5',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -1975,10 +2069,12 @@ SOFTWARE.''',
   Package(
     name: 'geolocator_platform_interface',
     description: 'A common platform interface for the geolocator plugin.',
-    repository: 'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_platform_interface',
+    repository:
+        'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_platform_interface',
     authors: [],
     version: '4.1.0',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -2006,10 +2102,12 @@ SOFTWARE.''',
   Package(
     name: 'geolocator_web',
     description: 'Official web implementation of the geolocator plugin.',
-    repository: 'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_web',
+    repository:
+        'https://github.com/baseflow/flutter-geolocator/tree/main/geolocator_web',
     authors: [],
     version: '2.2.0',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -2036,11 +2134,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'geolocator_windows',
-    description: 'Geolocation Windows plugin for Flutter. This plugin provides the Windows implementation for the geolocator.',
+    description:
+        'Geolocation Windows plugin for Flutter. This plugin provides the Windows implementation for the geolocator.',
     repository: 'https://github.com/baseflow/flutter-geolocators',
     authors: [],
     version: '0.2.2',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Baseflow
 
@@ -2067,11 +2167,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'get_it',
-    description: 'Simple direct Service Locator that allows to decouple the interface from a concrete implementation and  to access the concrete implementation from everywhere in your App"',
+    description:
+        'Simple direct Service Locator that allows to decouple the interface from a concrete implementation and  to access the concrete implementation from everywhere in your App"',
     homepage: 'https://github.com/fluttercommunity/get_it',
     authors: [],
     version: '7.6.0',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2018 Thomas Burkhart
 
@@ -2098,11 +2200,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'html',
-    description: 'APIs for parsing and manipulating HTML content outside the browser.',
+    description:
+        'APIs for parsing and manipulating HTML content outside the browser.',
     repository: 'https://github.com/dart-lang/html',
     authors: [],
     version: '0.15.4',
-    license: '''Copyright (c) 2006-2012 The Authors
+    license:
+        '''Copyright (c) 2006-2012 The Authors
 
 Contributors:
 James Graham - jg307@cam.ac.uk
@@ -2131,11 +2235,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   ),
   Package(
     name: 'http',
-    description: 'A composable, multi-platform, Future-based API for HTTP requests.',
+    description:
+        'A composable, multi-platform, Future-based API for HTTP requests.',
     repository: 'https://github.com/dart-lang/http/tree/master/pkgs/http',
     authors: [],
     version: '1.1.0',
-    license: '''Copyright 2014, the Dart project authors. 
+    license:
+        '''Copyright 2014, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2168,11 +2274,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'http_parser',
-    description: 'A platform-independent package for parsing and serializing HTTP formats.',
+    description:
+        'A platform-independent package for parsing and serializing HTTP formats.',
     repository: 'https://github.com/dart-lang/http_parser',
     authors: [],
     version: '4.0.2',
-    license: '''Copyright 2014, the Dart project authors. 
+    license:
+        '''Copyright 2014, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2205,11 +2313,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'image',
-    description: 'Dart Image Library provides server and web apps the ability to load, manipulate, and save images with various image file formats.',
+    description:
+        'Dart Image Library provides server and web apps the ability to load, manipulate, and save images with various image file formats.',
     homepage: 'https://github.com/brendan-duncan/image',
     authors: [],
     version: '4.1.4',
-    license: '''The MIT License
+    license:
+        '''The MIT License
 
 Copyright (c) 2013-2022 Brendan Duncan.
 All rights reserved.
@@ -2237,12 +2347,15 @@ THE SOFTWARE.''',
   ),
   Package(
     name: 'internet_connection_checker',
-    description: 'A pure Dart library that checks for internet by opening a socket to a list of specified addresses, each with individual port and timeout. Defaults are provided for convenience.',
-    homepage: 'https://github.com/RounakTadvi/internet_connection_checker/tree/main',
+    description:
+        'A pure Dart library that checks for internet by opening a socket to a list of specified addresses, each with individual port and timeout. Defaults are provided for convenience.',
+    homepage:
+        'https://github.com/RounakTadvi/internet_connection_checker/tree/main',
     repository: 'https://github.com/RounakTadvi/internet_connection_checker',
     authors: [],
     version: '1.0.0+1',
-    license: '''internet_connection_checker
+    license:
+        '''internet_connection_checker
 
 MIT
 
@@ -2259,11 +2372,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   ),
   Package(
     name: 'intl',
-    description: 'Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.',
+    description:
+        'Contains code to deal with internationalized/localized messages, date and number formatting and parsing, bi-directional text, and other internationalization issues.',
     repository: 'https://github.com/dart-lang/i18n/tree/main/pkgs/intl',
     authors: [],
     version: '0.18.1',
-    license: '''Copyright 2013, the Dart project authors.
+    license:
+        '''Copyright 2013, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2296,11 +2411,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'js',
-    description: 'Annotations to create static Dart interfaces for JavaScript APIs.',
+    description:
+        'Annotations to create static Dart interfaces for JavaScript APIs.',
     repository: 'https://github.com/dart-lang/sdk/tree/main/pkg/js',
     authors: [],
     version: '0.6.7',
-    license: '''Copyright 2012, the Dart project authors.
+    license:
+        '''Copyright 2012, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2333,11 +2450,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'json_annotation',
-    description: 'Classes and helper functions that support JSON code generation via the `json_serializable` package.',
-    repository: 'https://github.com/google/json_serializable.dart/tree/master/json_annotation',
+    description:
+        'Classes and helper functions that support JSON code generation via the `json_serializable` package.',
+    repository:
+        'https://github.com/google/json_serializable.dart/tree/master/json_annotation',
     authors: [],
     version: '4.8.1',
-    license: '''Copyright 2017, the Dart project authors. All rights reserved.
+    license:
+        '''Copyright 2017, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -2369,12 +2489,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'lints',
-    description: '''Official Dart lint rules. Defines the \'core\' and \'recommended\' set of lints suggested by the Dart team.
+    description:
+        '''Official Dart lint rules. Defines the 'core' and 'recommended' set of lints suggested by the Dart team.
 ''',
     repository: 'https://github.com/dart-lang/lints',
     authors: [],
     version: '2.0.1',
-    license: '''Copyright 2021, the Dart project authors.
+    license:
+        '''Copyright 2021, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2407,11 +2529,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'matcher',
-    description: 'Support for specifying test expectations via an extensible Matcher class. Also includes a number of built-in Matcher implementations for common cases.',
+    description:
+        'Support for specifying test expectations via an extensible Matcher class. Also includes a number of built-in Matcher implementations for common cases.',
     repository: 'https://github.com/dart-lang/matcher',
     authors: [],
     version: '0.12.16',
-    license: '''Copyright 2014, the Dart project authors. 
+    license:
+        '''Copyright 2014, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2444,11 +2568,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'material_color_utilities',
-    description: 'Algorithms and utilities that power the Material Design 3 color system, including choosing theme colors from images and creating tones of colors; all in a new color space.',
-    repository: 'https://github.com/material-foundation/material-color-utilities/tree/main/dart',
+    description:
+        'Algorithms and utilities that power the Material Design 3 color system, including choosing theme colors from images and creating tones of colors; all in a new color space.',
+    repository:
+        'https://github.com/material-foundation/material-color-utilities/tree/main/dart',
     authors: [],
     version: '0.5.0',
-    license: '''Apache License
+    license:
+        '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -2629,7 +2756,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don\'t include
+      replaced with your own identifying information. (Don't include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -2655,11 +2782,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'meta',
-    description: 'Annotations used to express developer intentions that can\'t otherwise be deduced by statically analyzing source code.',
+    description:
+        'Annotations used to express developer intentions that can\'t otherwise be deduced by statically analyzing source code.',
     repository: 'https://github.com/dart-lang/sdk/tree/main/pkg/meta',
     authors: [],
     version: '1.9.1',
-    license: '''Copyright 2016, the Dart project authors.
+    license:
+        '''Copyright 2016, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2692,11 +2821,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'nested',
-    description: 'A Flutter Widget which helps nest multiple widgets without needing to manually nest them.',
+    description:
+        'A Flutter Widget which helps nest multiple widgets without needing to manually nest them.',
     repository: 'https://github.com/rrousselGit/nested',
     authors: [],
     version: '1.0.0',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2019 Remi Rousselet
 
@@ -2723,11 +2854,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'octo_image',
-    description: 'A multifunctional Flutter image widget. Supports placeholders, error widgets and image transformers with fading.',
+    description:
+        'A multifunctional Flutter image widget. Supports placeholders, error widgets and image transformers with fading.',
     homepage: 'https://github.com/Baseflow/octo_image',
     authors: [],
     version: '2.0.0',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2020 Baseflow
 
@@ -2754,11 +2887,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'path',
-    description: 'A string-based path manipulation library. All of the path operations you know and love, with solid support for Windows, POSIX (Linux and Mac OS X), and the web.',
+    description:
+        'A string-based path manipulation library. All of the path operations you know and love, with solid support for Windows, POSIX (Linux and Mac OS X), and the web.',
     repository: 'https://github.com/dart-lang/path',
     authors: [],
     version: '1.8.3',
-    license: '''Copyright 2014, the Dart project authors. 
+    license:
+        '''Copyright 2014, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -2791,11 +2926,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'path_provider',
-    description: 'Flutter plugin for getting commonly used locations on host platform file systems, such as the temp and app data directories.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider',
+    description:
+        'Flutter plugin for getting commonly used locations on host platform file systems, such as the temp and app data directories.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider',
     authors: [],
     version: '2.0.15',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -2827,10 +2965,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'path_provider_android',
     description: 'Android implementation of the path_provider plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_android',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_android',
     authors: [],
     version: '2.0.27',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -2862,10 +3002,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'path_provider_foundation',
     description: 'iOS and macOS implementation of the path_provider plugin',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_foundation',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_foundation',
     authors: [],
     version: '2.2.4',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -2897,10 +3039,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'path_provider_linux',
     description: 'Linux implementation of the path_provider plugin',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_linux',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_linux',
     authors: [],
     version: '2.1.11',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -2932,10 +3076,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'path_provider_platform_interface',
     description: 'A common platform interface for the path_provider plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_platform_interface',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_platform_interface',
     authors: [],
     version: '2.0.6',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -2967,10 +3113,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'path_provider_windows',
     description: 'Windows implementation of the path_provider plugin',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_windows',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/path_provider/path_provider_windows',
     authors: [],
     version: '2.1.7',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3001,12 +3149,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'petitparser',
-    description: 'A dynamic parser framework to build efficient grammars and parsers quickly.',
+    description:
+        'A dynamic parser framework to build efficient grammars and parsers quickly.',
     homepage: 'https://petitparser.github.io',
     repository: 'https://github.com/petitparser/dart-petitparser',
     authors: [],
     version: '5.4.0',
-    license: '''The MIT License
+    license:
+        '''The MIT License
 
 Copyright (c) 2006-2023 Lukas Renggli.
 All rights reserved.
@@ -3038,7 +3188,8 @@ THE SOFTWARE.''',
     homepage: 'https://github.com/google/platform.dart',
     authors: [],
     version: '3.1.0',
-    license: '''Copyright 2017, the Dart project authors. All rights reserved.
+    license:
+        '''Copyright 2017, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -3070,11 +3221,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'plugin_platform_interface',
-    description: 'Reusable base class for platform interfaces of Flutter federated plugins, to help enforce best practices.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/plugin_platform_interface',
+    description:
+        'Reusable base class for platform interfaces of Flutter federated plugins, to help enforce best practices.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/plugin_platform_interface',
     authors: [],
     version: '2.1.5',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3105,11 +3259,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'pointycastle',
-    description: 'A Dart library implementing cryptographic algorithms and primitives, modeled on the BouncyCastle library.',
+    description:
+        'A Dart library implementing cryptographic algorithms and primitives, modeled on the BouncyCastle library.',
     homepage: 'https://github.com/bcgit/pc-dart',
     authors: [],
     version: '3.7.4',
-    license: '''Copyright (c) 2000 - 2019 The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org)
+    license:
+        '''Copyright (c) 2000 - 2019 The Legion of the Bouncy Castle Inc. (https://www.bouncycastle.org)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -3133,11 +3289,13 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.''',
   ),
   Package(
     name: 'provider',
-    description: 'A wrapper around InheritedWidget to make them easier to use and more reusable.',
+    description:
+        'A wrapper around InheritedWidget to make them easier to use and more reusable.',
     repository: 'https://github.com/rrousselGit/provider',
     authors: [],
     version: '6.0.5',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2019 Remi Rousselet
 
@@ -3164,11 +3322,13 @@ SOFTWARE.''',
   ),
   Package(
     name: 'responsive_sizer',
-    description: 'Responsive Sizer helps implement a reponsive layout by providing helper widgets and extensions.',
+    description:
+        'Responsive Sizer helps implement a reponsive layout by providing helper widgets and extensions.',
     homepage: 'https://github.com/CoderUni/responsive_sizer/',
     authors: [],
     version: '3.3.0+1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2021 CoderUni
 
@@ -3195,12 +3355,14 @@ SOFTWARE.''',
   ),
   Package(
     name: 'rxdart',
-    description: '''RxDart is an implementation of the popular reactiveX api for asynchronous programming, leveraging the native Dart Streams api.
+    description:
+        '''RxDart is an implementation of the popular reactiveX api for asynchronous programming, leveraging the native Dart Streams api.
 ''',
     repository: 'https://github.com/ReactiveX/rxdart',
     authors: [],
     version: '0.27.7',
-    license: '''Licensed under the Apache License, Version 2.0 (the "License"); you
+    license:
+        '''Licensed under the Apache License, Version 2.0 (the "License"); you
 may not use this file except in compliance with the License. You may
 obtain a copy of the License at
 
@@ -3217,11 +3379,14 @@ and limitations under the License.''',
   ),
   Package(
     name: 'shared_preferences',
-    description: 'Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences',
+    description:
+        'Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences',
     authors: [],
     version: '2.2.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3253,10 +3418,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'shared_preferences_android',
     description: 'Android implementation of the shared_preferences plugin',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_android',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_android',
     authors: [],
     version: '2.2.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3287,11 +3454,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'shared_preferences_foundation',
-    description: 'iOS and macOS implementation of the shared_preferences plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_foundation',
+    description:
+        'iOS and macOS implementation of the shared_preferences plugin.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_foundation',
     authors: [],
     version: '2.3.2',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3323,10 +3493,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'shared_preferences_linux',
     description: 'Linux implementation of the shared_preferences plugin',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_linux',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_linux',
     authors: [],
     version: '2.3.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3357,11 +3529,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'shared_preferences_platform_interface',
-    description: 'A common platform interface for the shared_preferences plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_platform_interface',
+    description:
+        'A common platform interface for the shared_preferences plugin.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_platform_interface',
     authors: [],
     version: '2.3.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3393,10 +3568,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'shared_preferences_web',
     description: 'Web platform implementation of shared_preferences',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_web',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_web',
     authors: [],
     version: '2.2.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3428,10 +3605,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'shared_preferences_windows',
     description: 'Windows implementation of shared_preferences',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_windows',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/shared_preferences/shared_preferences_windows',
     authors: [],
     version: '2.3.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -3462,11 +3641,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'source_span',
-    description: 'Provides a standard representation for source code locations and spans.',
+    description:
+        'Provides a standard representation for source code locations and spans.',
     repository: 'https://github.com/dart-lang/source_span',
     authors: [],
     version: '1.10.0',
-    license: '''Copyright 2014, the Dart project authors. 
+    license:
+        '''Copyright 2014, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3499,11 +3680,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'sprintf',
-    description: 'Dart implementation of sprintf. Provides simple printf like formatting such as sprintf("hello %s", ["world"]);',
+    description:
+        'Dart implementation of sprintf. Provides simple printf like formatting such as sprintf("hello %s", ["world"]);',
     homepage: 'https://github.com/Naddiseo/dart-sprintf',
     authors: [],
     version: '7.0.0',
-    license: '''Copyright (c) 2012, Richard Eames
+    license:
+        '''Copyright (c) 2012, Richard Eames
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
@@ -3531,11 +3714,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'sqflite',
-    description: 'Flutter plugin for SQLite, a self-contained, high-reliability, embedded, SQL database engine.',
+    description:
+        'Flutter plugin for SQLite, a self-contained, high-reliability, embedded, SQL database engine.',
     repository: 'https://github.com/tekartik/sqflite/tree/master/sqflite',
     authors: [],
     version: '2.3.2',
-    license: '''BSD 2-Clause License
+    license:
+        '''BSD 2-Clause License
 
 Copyright (c) 2019, Alexandre Roux Tekartik
 All rights reserved.
@@ -3566,11 +3751,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'sqflite_common',
-    description: 'Dart wrapper on SQLite, a self-contained, high-reliability, embedded, SQL database engine.',
+    description:
+        'Dart wrapper on SQLite, a self-contained, high-reliability, embedded, SQL database engine.',
     homepage: 'https://github.com/tekartik/sqflite/tree/master/sqflite_common',
     authors: [],
     version: '2.5.3',
-    license: '''BSD 2-Clause License
+    license:
+        '''BSD 2-Clause License
 
 Copyright (c) 2019, Alexandre Roux Tekartik
 All rights reserved.
@@ -3601,11 +3788,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'stack_trace',
-    description: 'A package for manipulating stack traces and printing them readably.',
+    description:
+        'A package for manipulating stack traces and printing them readably.',
     repository: 'https://github.com/dart-lang/stack_trace',
     authors: [],
     version: '1.11.0',
-    license: '''Copyright 2014, the Dart project authors.
+    license:
+        '''Copyright 2014, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3638,11 +3827,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'stream_channel',
-    description: 'An abstraction for two-way communication channels based on the Dart Stream class.',
+    description:
+        'An abstraction for two-way communication channels based on the Dart Stream class.',
     repository: 'https://github.com/dart-lang/stream_channel',
     authors: [],
     version: '2.1.1',
-    license: '''Copyright 2015, the Dart project authors. 
+    license:
+        '''Copyright 2015, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3679,7 +3870,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
     repository: 'https://github.com/dart-lang/string_scanner',
     authors: [],
     version: '1.2.0',
-    license: '''Copyright 2014, the Dart project authors. 
+    license:
+        '''Copyright 2014, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3712,11 +3904,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'synchronized',
-    description: 'Lock mechanism to prevent concurrent access to asynchronous code.',
-    homepage: 'https://github.com/tekartik/synchronized.dart/tree/master/synchronized',
+    description:
+        'Lock mechanism to prevent concurrent access to asynchronous code.',
+    homepage:
+        'https://github.com/tekartik/synchronized.dart/tree/master/synchronized',
     authors: [],
     version: '3.1.0+1',
-    license: '''MIT License
+    license:
+        '''MIT License
 
 Copyright (c) 2016, Alexandre Roux Tekartik.
 
@@ -3747,7 +3942,8 @@ SOFTWARE.''',
     repository: 'https://github.com/dart-lang/term_glyph',
     authors: [],
     version: '1.2.1',
-    license: '''Copyright 2017, the Dart project authors. 
+    license:
+        '''Copyright 2017, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3780,11 +3976,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'test_api',
-    description: 'The user facing API for structuring Dart tests and checking expectations.',
+    description:
+        'The user facing API for structuring Dart tests and checking expectations.',
     repository: 'https://github.com/dart-lang/test/tree/master/pkgs/test_api',
     authors: [],
     version: '0.6.0',
-    license: '''Copyright 2018, the Dart project authors. 
+    license:
+        '''Copyright 2018, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3817,11 +4015,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'typed_data',
-    description: 'Utility functions and classes related to the dart:typed_data library.',
+    description:
+        'Utility functions and classes related to the dart:typed_data library.',
     repository: 'https://github.com/dart-lang/typed_data',
     authors: [],
     version: '1.3.2',
-    license: '''Copyright 2015, the Dart project authors. 
+    license:
+        '''Copyright 2015, the Dart project authors. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -3854,11 +4054,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'universal_io',
-    description: 'Cross-platform \'dart:io\' that adds browser support for HttpClient and some other "dart:io" APIs.',
+    description:
+        'Cross-platform \'dart:io\' that adds browser support for HttpClient and some other "dart:io" APIs.',
     homepage: 'https://github.com/dart-io-packages/universal_io',
     authors: [],
     version: '2.2.2',
-    license: '''Apache License
+    license:
+        '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -4040,11 +4242,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'url_launcher',
-    description: 'Flutter plugin for launching a URL. Supports web, phone, SMS, and email schemes.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher',
+    description:
+        'Flutter plugin for launching a URL. Supports web, phone, SMS, and email schemes.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher',
     authors: [],
     version: '6.2.4',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4076,10 +4281,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'url_launcher_android',
     description: 'Android implementation of the url_launcher plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_android',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_android',
     authors: [],
     version: '6.2.2',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4111,10 +4318,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'url_launcher_ios',
     description: 'iOS implementation of the url_launcher plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_ios',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_ios',
     authors: [],
     version: '6.2.4',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4146,10 +4355,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'url_launcher_linux',
     description: 'Linux implementation of the url_launcher plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_linux',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_linux',
     authors: [],
     version: '3.1.1',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4181,10 +4392,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'url_launcher_macos',
     description: 'macOS implementation of the url_launcher plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_macos',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_macos',
     authors: [],
     version: '3.1.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4216,10 +4429,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'url_launcher_platform_interface',
     description: 'A common platform interface for the url_launcher plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_platform_interface',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_platform_interface',
     authors: [],
     version: '2.3.0',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4251,10 +4466,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   Package(
     name: 'url_launcher_web',
     description: 'Web platform implementation of url_launcher',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_web',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_web',
     authors: [],
     version: '2.2.0',
-    license: '''url_launcher_web
+    license:
+        '''url_launcher_web
 
 Copyright 2013 The Flutter Authors. All rights reserved.
 
@@ -4465,7 +4682,7 @@ platform_detect
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don\'t include
+      replaced with your own identifying information. (Don't include
       the brackets!)  The text should be enclosed in the appropriate
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
@@ -4492,10 +4709,12 @@ platform_detect
   Package(
     name: 'url_launcher_windows',
     description: 'Windows implementation of the url_launcher plugin.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_windows',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/url_launcher/url_launcher_windows',
     authors: [],
     version: '3.1.1',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4526,12 +4745,14 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'uuid',
-    description: '''RFC4122 (v1, v4, v5, v6, v7, v8) UUID Generator and Parser for Dart
+    description:
+        '''RFC4122 (v1, v4, v5, v6, v7, v8) UUID Generator and Parser for Dart
 ''',
     repository: 'https://github.com/Daegalus/dart-uuid',
     authors: [],
     version: '4.2.2',
-    license: '''Copyright (c) 2021 Yulian Kuncheff
+    license:
+        '''Copyright (c) 2021 Yulian Kuncheff
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -4548,7 +4769,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     repository: 'https://github.com/google/vector_math.dart',
     authors: [],
     version: '2.1.4',
-    license: '''Copyright 2015, Google Inc. All rights reserved.
+    license:
+        '''Copyright 2015, Google Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -4579,7 +4801,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Copyright (C) 2013 Andrew Magill
 
-This software is provided \'as-is\', without any express or implied
+This software is provided 'as-is', without any express or implied
 warranty.  In no event will the authors be held liable for any damages
 arising from the use of this software.
 
@@ -4600,11 +4822,13 @@ freely, subject to the following restrictions:
   ),
   Package(
     name: 'web',
-    description: 'Lightweight DOM and JS bindings built around JS static interop.',
+    description:
+        'Lightweight DOM and JS bindings built around JS static interop.',
     repository: 'https://github.com/dart-lang/web',
     authors: [],
     version: '0.1.4-beta',
-    license: '''Copyright 2023, the Dart project authors.
+    license:
+        '''Copyright 2023, the Dart project authors.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -4636,12 +4860,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'win32',
-    description: 'A Dart library for accessing common Win32 APIs using FFI. No C required!',
+    description:
+        'A Dart library for accessing common Win32 APIs using FFI. No C required!',
     homepage: 'https://win32.pub',
     repository: 'https://github.com/timsneath/win32',
     authors: [],
     version: '4.1.4',
-    license: '''Copyright 2019, the Dart project authors. All rights reserved.
+    license:
+        '''Copyright 2019, the Dart project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -4673,11 +4899,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'xdg_directories',
-    description: 'A Dart package for reading XDG directory configuration information on Linux.',
-    repository: 'https://github.com/flutter/packages/tree/main/packages/xdg_directories',
+    description:
+        'A Dart package for reading XDG directory configuration information on Linux.',
+    repository:
+        'https://github.com/flutter/packages/tree/main/packages/xdg_directories',
     authors: [],
     version: '1.0.1',
-    license: '''Copyright 2013 The Flutter Authors. All rights reserved.
+    license:
+        '''Copyright 2013 The Flutter Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -4708,11 +4937,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.''',
   ),
   Package(
     name: 'xml',
-    description: 'A lightweight library for parsing, traversing, querying, transforming and building XML documents.',
+    description:
+        'A lightweight library for parsing, traversing, querying, transforming and building XML documents.',
     homepage: 'https://github.com/renggli/dart-xml',
     authors: [],
     version: '6.3.0',
-    license: '''The MIT License
+    license:
+        '''The MIT License
 
 Copyright (c) 2006-2023 Lukas Renggli.
 All rights reserved.
@@ -4740,11 +4971,13 @@ THE SOFTWARE.''',
   ),
   Package(
     name: 'yaml',
-    description: 'A parser for YAML, a human-friendly data serialization standard',
+    description:
+        'A parser for YAML, a human-friendly data serialization standard',
     repository: 'https://github.com/dart-lang/yaml',
     authors: [],
     version: '3.1.2',
-    license: '''Copyright (c) 2014, the Dart project authors.
+    license:
+        '''Copyright (c) 2014, the Dart project authors.
 Copyright (c) 2006, Kirill Simonov.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -4768,29 +5001,37 @@ SOFTWARE.''',
     isSdk: false,
     isDirectDependency: false,
   ),
-
 ];
 
 /// Package license definition.
 class Package {
   /// Package name
   final String name;
+
   /// Description
   final String description;
+
   /// Website URL
   final String? homepage;
+
   /// Repository URL
   final String? repository;
+
   /// Authors
   final List<String> authors;
+
   /// Version
   final String version;
+
   /// License
   final String? license;
+
   /// Whether the license is in markdown format or not (plain text).
   final bool isMarkdown;
+
   /// Whether the package is included in the SDK or not.
   final bool isSdk;
+
   /// Whether the package is direct dependency or not.
   final bool isDirectDependency;
 
