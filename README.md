@@ -1,7 +1,10 @@
-# weather_app
+# Colorful_weather
 
-A new Flutter project.
+This is a weatehr app that i've created using flutter, well opbviously.
 
+I used clean archticture here, or at least tried to do so, as you can see from the code it's a bit of a miss at the moment hopefully in the future i will come back to improve this code.
+
+But at leaset i'm doing something
 ## Getting Started
 
 This project is a starting point for a Flutter application.
